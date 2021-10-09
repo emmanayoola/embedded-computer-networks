@@ -15,6 +15,9 @@
 
 // map the led to gpio pins
 gpio_pin_t led1 = {PA_8,  GPIOA, GPIO_PIN_8};
+gpio_pin_t led2 = {PI_1,  GPIOA, GPIO_PIN_13};
+gpio_pin_t led3 = {PB_14,  GPIOA, GPIO_PIN_14};
+gpio_pin_t led4 = {PB_15,  GPIOA, GPIO_PIN_15};
 
 // this is the main method
 int main()
