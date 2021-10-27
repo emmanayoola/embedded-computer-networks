@@ -35,9 +35,6 @@ int main()
   
   // initialise the gpio pins
   init_gpio(led, OUTPUT);
-	init_gpio(led2, OUTPUT);
-	init_gpio(led3, OUTPUT);
-	init_gpio(led4, OUTPUT);
 
   
   // loop forever ...
@@ -49,25 +46,5 @@ int main()
     
     // wait for 1 second
     HAL_Delay(1000);
-		
-		toggle_gpio(led2);
-		
-		HAL_Delay(1500);
-		
-		
-		toggle_gpio(led3);
-		
-		
-		HAL_Delay(2000);
-		
-		
-		
-		toggle_gpio(led4);
-		
-		
-		HAL_Delay(2500);
-		
-		
-
   }
 }
